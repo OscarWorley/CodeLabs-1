@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 0 ; //declare and initalise variable
+
+    while (num != 5) { //while conditional check. Continue the loop if num is not equal to 5.
+        //code to output then decrease number
+        cout << "Enter any number other than 5: ";//displaying a message
+        cin >> num;//taking in and storing the users input
+        if (num == 5) {// if num /user inputs 5 output message on line 12
+            cout << "Hey! You weren't supposed to enter 5!";
+        }
+    }
+    return 0;
+}
