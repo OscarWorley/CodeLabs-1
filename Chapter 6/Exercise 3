@@ -1,0 +1,13 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	int array[10] = {
+		100,50,25,0,5,10,33,5,9,453
+	};
+	for (int i; i < 10; i++) {
+
+	}
+
+}
