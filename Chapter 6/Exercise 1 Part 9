@@ -1,0 +1,11 @@
+
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	string a[4] = {//a string array intalised as "a" storing 4 elements
+		"", "a", "aa", "aaa"
+	};
+
+}
