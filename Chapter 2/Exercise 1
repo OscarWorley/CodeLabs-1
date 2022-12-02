@@ -1,0 +1,17 @@
+#include <iostream> //input & output
+#include <string>// stores the strings given value. It inclues the string functionality
+using namespace std;//standard namespace
+
+int main() { //Main function
+
+        int age = 0; //declaring and initialising variable to store age
+            cout << ("Welcome to the voting poll. How old are you?");
+            cin >> age;
+        if (age >= 18) { //check if age is greater than or equal to 18
+            cout << ("Wonderful, you can vote!");//output can vote message
+        }
+        else { //else block if above condition is false (e.g. age under 18)
+            cout << ("Bad news, you are to young to vote!"); //output can vote message
+        }
+        return 0;//Terminates the program
+}
