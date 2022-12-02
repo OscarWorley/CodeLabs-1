@@ -1,0 +1,11 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	string greatings[2];//a integer string storing 2 elements
+	{
+		greatings[0] = "Hello";
+		greatings[1] = "Bye";
+	};
+}
