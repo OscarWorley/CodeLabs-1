@@ -1,0 +1,23 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    int  firstNum = 0, secondNum = 1, nextNum = 0;//intalising variables
+    for (int num = 2; num <= 10; num++) {  //execute the outer loop 10 times 
+                                     
+        if (num == 1) {// if the condition is met the first term in the fibonacci is printed
+            cout << firstNum << ", ";
+        }
+                
+        if (num == 2) {// if the condition is met the second term in the fibonacci is printed
+            cout << secondNum << ", ";
+        }
+        
+        nextNum = firstNum + secondNum;// gets the next number/term by adding the first and second number together
+        firstNum = secondNum; // this makes it so it when the addition is being done it adds the previous number
+        secondNum = nextNum; 
+        cout << nextNum << ", ";//prints each term in the fibonacci sequence
+    }
+
+}
