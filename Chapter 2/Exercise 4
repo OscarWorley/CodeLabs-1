@@ -1,0 +1,27 @@
+#include <iostream> //input & output
+#include <string>// stores the strings given value. It inclues the string functionality
+using namespace std;//standard namespace
+
+int main() { //Main function
+
+    bool musicalFriend = true; //sets wether there is a musical friend or not
+    string friendPlays = "guitar"; // storing the string "guitar" in the Variable friendPlays
+
+    if (musicalFriend == true) // If the musicalFriend boolean is set to true you contiune on to the next statement otherwise "you cannot play in the band".
+    {
+        if (friendPlays == "guitar" or "drums") //If friendPlays is either  guitar or drums then "you can join the band" statement gets output
+        {
+            cout << ("You can join the band!");
+        }
+        else// if friendPlays isn't either guitar or drums then the message "you cannot play in the band" statement gets output.
+        {
+            cout << ("You cannot play in the band.");
+        }
+    }
+    else// if musiclaFriend == flase then this message appears
+    {
+        cout << ("You cannot play in the band.");
+    }
+
+    return 0;//Terminates the program
+}
