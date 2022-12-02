@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    for (int i = 50; i >= 0 ; i--) {//Declaring the i as an integer. Then making the for loop repeats until it reaches zero/when the condition is met.
+        cout << i << "\n";//outputing and displaying each integer -1
+    }
+
+}
