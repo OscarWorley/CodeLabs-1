@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 0 ; //declare and initalise variable
+
+    cout << "How old are you? ";//displaying a message
+    cin >> age;//taking in and storing the users input
+
+    while (cin.fail()) { //while conditional check. Continue the loop if num is not equal to 5.
+        cin.clear();
+        cin.ignore(256, '\n');
+        cout << "Invalid input" << "\n";
+        cout << "How old are you? ";//displaying a message
+        cin >> age;//taking in and storing the users input
+    }
+    return 0;
+}
