@@ -1,0 +1,15 @@
+#include <iostream>// input & output
+#include <string> // access string functionality
+using namespace std; // Standard namespace
+
+int main() {//Main function
+    int firstNumber = 1; 
+   bool iCanCode = true; // true false statement
+   char hopefulGrade = 'a';
+   double myDecimal = 1.0; 
+   string minimalSentance = "y";// more than one character
+   int keyMash = 13213123;
+   float mysteryDataType = 5.6f; 
+
+    return 0;//Terminates  program
+}
