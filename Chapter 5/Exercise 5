@@ -1,0 +1,21 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    int n = 1 ;
+    for (int i = 1; i <= 12; i++) {  //execute the outer loop 12 times  
+        for (int j = 1; j <=12; j++) {//execute the inner loop 12 times  
+            if (j == 1) {//every time j hits one it prints line 10 and 11
+                cout << n++ << " Times Table: " << endl;
+                cout << "-------------- " << endl;
+            }
+
+            cout << j << " x " << i << " = " << j * i << "\n";// prints the time table, then times j and i to get the answer of said timestable
+        }
+        cout << endl; //creates a gap at the end of every loop to space the timestable
+    }
+
+
+
+}
