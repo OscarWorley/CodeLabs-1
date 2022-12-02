@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	string vehicles[5] = {//a double array intalised as "decimals" storing 4 elements
+		"Car", "Train", "Tractor", "Skiff", "Tank"
+	};
+	cout << vehicles[3];//prints the third index of the array
+}
