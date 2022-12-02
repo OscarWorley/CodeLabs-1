@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    for (int i = 100; i <= 200 ; i += 5) {//Declaring the i as an integer. Then making the for loop repeats until it reaches 200 /when the condition is met.
+        cout << i << "\n";//outputing and displaying each integer with the increament of +5
+    }
+
+}
