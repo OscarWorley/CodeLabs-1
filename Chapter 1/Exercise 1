@@ -1,0 +1,9 @@
+// CodeLab1 - Chapter 1 - Exercise 1.cpp 
+
+#include <iostream> //input & output
+#include <string> // stores the strings given value. It includes the string functionality
+using namespace std; // Declare the use of the standard namespace
+
+int main() { //Main function
+    cout << "Coding is Cool" << endl;// Output statement
+}
