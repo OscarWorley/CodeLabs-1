@@ -1,0 +1,33 @@
+#include <iostream> //input & output
+#include <string>// stores the strings given value. It inclues the string functionality
+using namespace std;//standard namespace
+int main() { //Main function
+    double length, width, height;
+    int door = 20, window = 15;//part 2
+    int windowNum, doorNum;//part 2
+    const int COVERAGE = 350; // const integers are variable values that cannot be altered later
+    double totalSqFt;
+    double paintNeeded;
+    cout << "What is the length of the room in feet?" << endl;
+    cin >> length;
+    cout << "What is the width of the room in feet?" << endl;
+    cin >> width;
+    cout << "What is the height of the room in feet?" << endl;
+    cin >> height;
+    cout << "How many door/s are in the room?" << endl;//part 2
+    cin >> doorNum;//part 2
+    cout << "How many window/s are in the room?" << endl;//part 2
+    cin >> windowNum;//part 2
+
+    int areaRemoved;//part 2
+    areaRemoved = (doorNum * door) + (windowNum * window);//part 2: using the data from the users input. It calculates the area the door/s and window/s take up. 
+
+    totalSqFt = length * width * height;// getting the total square feet of the whole room
+
+    totalSqFt = totalSqFt - areaRemoved;//part 2: minuses the area taken up by doors and windows
+
+    paintNeeded = totalSqFt / 350;
+
+    cout << "\nLength = " << length << "\nWidth = " << width << "\nHeight = " << height << "\nNumber of gallons needed = " << paintNeeded << " gal" << endl;
+    return 0;//Terminates the program
+}
