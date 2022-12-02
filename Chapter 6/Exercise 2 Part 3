@@ -1,0 +1,12 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	string vehicles[5] = {//a double array intalised as "decimals" storing 4 elements
+		"Car", "Train", "Tractor", "Skiff", "Tank"
+
+	};
+	cout << vehicles[2] << " " << vehicles[4];//prints index 2 and 4 of the array
+
+}
