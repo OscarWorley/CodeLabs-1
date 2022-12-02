@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 108; //declare and initalise variable
+
+    while (num != 0) { //while conditional check
+        //code to output then decrease number
+        cout << "\n" << num;//printing the number
+        num -= 9;//decreasing the number by 9 until the condition is met
+    }
+    return 0;
+}
