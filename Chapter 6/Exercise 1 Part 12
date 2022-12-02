@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	double decimals[4] = {//a double array intalised as "decimals" storing 4 elements
+		5.6, 1.8, 4.34, 7.65
+	};
+
+}
