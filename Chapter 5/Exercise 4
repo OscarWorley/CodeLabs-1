@@ -1,0 +1,14 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    for (int col = 0; col < 7; col++) {  //execute the outer loop 7 times  
+        for (int row = 0; row < 7; row++) {//execute inner loop 7 times for every iteration of outerloop
+            cout << "*";   //print 7 stars
+        }
+        cout << endl; //print to a new console line so the stars don't just sit on one row 
+    }
+
+
+}
