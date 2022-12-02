@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	bool tOrF[4] = {//a boolean array intalised as "tOrF" storing 4 elements
+		true, false, false, true
+	};
+
+}
