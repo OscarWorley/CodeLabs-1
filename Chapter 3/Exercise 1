@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Would you like to continue? (Y/N): "; //ask for input
+    char wantingToCont; //variable for user answer;
+        cin >> wantingToCont;//get user input
+
+        switch (wantingToCont) { //evaluate expression
+        case 'Y': //case for Y
+            cout << ("Great you are going to continue on..."); //cout message if user enters Y
+                break; //break to end case
+        case 'N': //case for N
+            cout << ("You are not going to continue. Goodbye!"); //cout message if user enters N
+                break;
+        default: //default case
+            cout << ("Wrong input. Try typing Y or N "); //default message if neither Y or N entered
+        }
+    return 0; //Terminates the program
+}
