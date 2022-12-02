@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    for (int i = 0; i <=50 ; i++) {//Declaring the i as an integer. Then making the for loop repeat 50 times.
+        cout << i << "\n";//outputing and displaying each integer +1
+    }
+
+}
