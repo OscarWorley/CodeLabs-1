@@ -1,0 +1,9 @@
+// Exercise 4.cpp
+#include <iostream>//input & output
+using namespace std;//standard namespace
+int main()//main function
+{
+    int numberOne = 8, numberTwo = 10; 
+    cout << numberOne + numberTwo << endl;// adds the two set integer variables numberOne and numberTwo
+    return 0;//terminates program
+}
