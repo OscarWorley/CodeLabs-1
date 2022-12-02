@@ -1,0 +1,14 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	double decimals [5] ;//a double storing 5 elements
+	{
+		decimals[0] = 1.0;
+		decimals[1] = 2.0;
+		decimals[2] = 3.0;
+		decimals[3] = 4.0;
+		decimals[4] = 5.0;
+	};
+}
