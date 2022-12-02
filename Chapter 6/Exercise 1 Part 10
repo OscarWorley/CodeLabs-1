@@ -1,0 +1,10 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+	int num[5] = {//a integer array intalised as "num" storing 5 elements
+		1,10,100,1000,10000
+	};
+
+}
