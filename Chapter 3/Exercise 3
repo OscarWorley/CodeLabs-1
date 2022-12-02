@@ -1,0 +1,46 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    string stuFirstName, stuSecName;//intalising a string variable
+    cout << ("What is your students first name? ");//asking for user to input a first name
+    cin >> stuFirstName; //getting user input
+    
+    cout << ("What is your students second name? ");//asking for user to input a second name
+    cin >> stuSecName; //getting user input
+
+    cout << ("What grade did the student get? (0-100):");//asking for user to input a grade between 0 and 100
+    int grade;//intalisting an integer variable
+    cin >> grade;//getting user input
+
+    if (grade <0 || grade >100) {// if the user inputs a grade less than 0 or larger than 100
+        cout << "Invalid input";// A messsage gets displayed that the input is wrong
+        return 0;//terminates the program
+    }
+
+    switch (grade / 10) { //divides the grade given by 10 so we can create less cases to make the code more efficient
+    case 1: //case for 1
+    case 2: //case for 2
+    case 3: //case for 3
+        cout << (stuFirstName) << " " << (stuSecName) << " | " << (grade) << " = F"; //cout message if user enters a grade which is anything below 40
+        break; //break to end case
+    case 4: //case for 4
+        cout << (stuFirstName) << " " << (stuSecName) << " | " << (grade) << " = E";//if the grade is between 40 and 49 this gets outputed
+        break;
+    case 5: //case for 5
+        cout << (stuFirstName) << " " << (stuSecName) << " | " << (grade) << " = D";//if the grade is between 50 and 59 this gets outputed
+        break;
+    case 6: //case for 6
+        cout << (stuFirstName) << " " << (stuSecName) << " | " << (grade) << " = C";//if the grade is between 60 and 69 this gets outputed
+        break;
+    case 7: //case for 7
+        cout << (stuFirstName) << " " << (stuSecName) << " | " << (grade) << " = B";//if the grade is between 70 and 79 this gets outputed
+        break;
+    case 8: //case for 8
+    case 9: //case for 9
+    case 10: //case for 10
+        cout << (stuFirstName) << " " << (stuSecName) << " | " << (grade) << " = A";//This line gets outputed when a grade is 80 or more
+        break;
+    }
+    return 0; //Terminates the program
+}
