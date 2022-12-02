@@ -1,0 +1,23 @@
+#include <iostream> //input & output
+#include <string>// stores the strings given value. It inclues the string functionality
+using namespace std;//standard namespace
+
+int main() { //Main function
+
+    int money; //declaring and initialising variable to store money
+    cout << ("How much money do you have?");
+    cin >> money;
+
+    if (money >= 25) { 
+        cout << ("You can buy the game!\n");
+        
+        double moneyRemaining = money - 25;
+        
+        cout << ("You have ") << moneyRemaining ;
+    }
+    else { 
+        double moneyNeeded = 25 - money;
+        cout << ("I need to save ") << moneyNeeded; 
+    }
+    return 0;//Terminates the program
+}
