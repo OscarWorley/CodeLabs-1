@@ -1,0 +1,9 @@
+#include <iostream>// input & output
+using namespace std;// Standard namespace
+
+int main() {// main function
+    double numberOne = 50, numberTwo = 7;// set as double instead of int as they are being divided into a decimal number
+    cout << numberOne / numberTwo << endl;// divides numberOne(50) by numberTwo(7)
+
+    return 0;// terminates program
+}
