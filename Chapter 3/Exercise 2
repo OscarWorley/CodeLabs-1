@@ -1,0 +1,50 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    cout << ("What month would you like to know the days of? (1-12): ");//asking for input
+    int monthNum;
+    cin >> monthNum; //get user input
+
+        switch (monthNum) { //evaluating the int expression  
+        case 1: //case for 1
+            cout << ("January = 31 Days"); //cout message if user enters 1
+                break; //break to end case
+        case 2: //case for 2
+            cout << ("February = 28 Days"); //cout message if user enters 2
+                break;
+        case 3: //case for 3
+            cout << ("March = 31 Days"); //cout message if user enters 3
+            break;
+        case 4: //case for 4
+            cout << ("April = 30 Days"); //cout message if user enters 4
+            break;
+        case 5: //case for 5
+            cout << ("May = 31 Days"); //cout message if user enters 5
+            break;
+        case 6: //case for 6
+            cout << ("June = 30 Days"); //cout message if user enters 6
+            break;
+        case 7: //case for 7
+            cout << ("July = 31 Days"); //cout message if user enters 7
+            break;
+        case 8: //case for 8
+            cout << ("August = 31 Days"); //cout message if user enters 8
+            break;
+        case 9: //case for 9
+            cout << ("September = 30 Days"); //cout message if user enters 9
+            break;
+        case 10: //case for 10
+            cout << ("October = 31 Days"); //cout message if user enters 10
+            break;
+        case 11: //case for 11
+            cout << ("November = 30 Days"); //cout message if user enters 11
+            break;
+        case 12: //case for 12
+            cout << ("December = 31 Days"); //cout message if user enters 12
+            break;
+        default: //default case
+            cout << ("Wrong input. Try typing the number of the month e.g. 1 = January"); //default message if a number between 1-12 isn't entered
+        }
+    return 0; //Terminates the program
+}
