@@ -1,0 +1,22 @@
+#include <iostream> //input & output
+#include <string>// stores the strings given value. It inclues the string functionality
+using namespace std;//standard namespace
+
+int main() { //Main function
+
+    int age; //declaring and initialising variable to age
+    double height; //declaring and initialising variable to height
+    cout << ("How old are you?"); //outputing and printing a message
+    cin >> age; //Storing the inputed data from user in the age variable
+
+    cout << ("How tall are you in meters?"); //outputing and printing a message
+    cin >> height;//Storing the inputed data from user in the height variable
+
+    if (height >0.6 && age >5 ) { // if the inputed data for height is above 0.6 and the age is above 5 then you can go on the ride
+        cout << ("You can go on the ride. Have fun!\n");
+    }
+    else { // if the inputed data for height is below 0.6 and the age is below 5 then line 19 message is printed
+        cout << ("Sorry, you don't meet the requirements to go on the ride");
+    }
+    return 0;//Terminates the program
+}
