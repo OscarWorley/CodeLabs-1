@@ -1,0 +1,13 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+int main()//Main function
+{
+    for (int i = 20; i <= 24 ; i ++) {//Declaring the i as an integer. Then making the for loop repeats until it reaches 24 /when the condition is met.
+        if(i % 2 == 0) // if the expression is true i = even else it is false then i = odd. The % 2 == 0 checks if a number can be equivalent to 0 if true the number is even.
+            cout << i << " - Even" << "\n";//outputing each integer that is even.
+        else
+            cout << i << " - Odd" << "\n";//outputting each integer that is odd.
+    }
+
+}
