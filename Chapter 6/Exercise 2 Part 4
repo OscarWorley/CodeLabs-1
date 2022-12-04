@@ -3,10 +3,12 @@ using namespace std;//Main function
 
 int main()//Main function
 {
-	string vehicles[5] = {//a double array intalised as "decimals" storing 4 elements
-		"Car", "Train", "Tractor", "Skiff", "Tank"
+	int values[10];//Creating an array called values that has storage for 10 integers
 
-	};
-	cout << vehicles[0] << " " << vehicles[3] << " " << vehicles[1];//prints index 0, 3 and 1 of the array
+	cout << "Enter values for array: ";//Asking user to input the data to fill the array
 
+	for (int i = 0; i < 10; i++) {//Using a for loop to run through the array so each value inputed can be "seen" to then be displayed
+		cin >> values[i];//Grabbing users input from the array to be stored
+		cout << values[i] << "\n";//Displaying the users data
+	}
 }
