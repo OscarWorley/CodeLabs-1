@@ -1,0 +1,14 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+
+void hello() {// function declaration
+	cout << "Hello"; //function definition
+}
+
+int main() {//main function
+
+	hello();// invoke the function
+
+		return 0; // terminates program
+}
