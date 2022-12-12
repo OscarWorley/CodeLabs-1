@@ -2,13 +2,13 @@
 using namespace std;//Main function
 
 
-void hello() {// function declaration
-	cout << "Hello"; //function definition
+void hello() {// Declaring function
+	cout << "Hello"; //function then outputs "Hello"
 }
 
 int main() {//main function
 
-	hello();// invoke the function
+	hello();// calling the function to be displayed
 
 		return 0; // terminates program
 }
