@@ -1,0 +1,17 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+
+void sum(int num1,int num2, int num3) {// functions parameters creating a int for earch user input
+	
+	int result = num1 + num2 + num3;// adding each parameter together
+	
+	cout << result; //outputting the addition total
+}
+
+int main() {//main function
+
+	sum(5,10,2235);// calling to use sum function then adding three numbers inputed
+
+	return 0; // terminates program
+}
