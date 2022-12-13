@@ -1,0 +1,20 @@
+#include <iostream>//standard namespace
+using namespace std;//Main function
+
+
+string greetings(string userName, string greeting){
+	return greeting, userName;//return newly formed string
+}
+int main() {//main function
+	string getUserName;//declare variable to store userName
+	string getGreeting;//declare variable to store greeting
+
+	cout << "What is your name? " << endl;//ask user for name input
+	cin >> getUserName;//store input
+
+	cout << "Enter how you want to be greeted: " << endl;//ask user for greeting input
+	cin >> getGreeting;//store input
+
+	string greeting =  greetings(getGreeting, getUserName);// invoke function and assign returned value to string variable
+		cout << greeting << endl;//output the greeting
+}
